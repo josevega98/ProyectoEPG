@@ -2,7 +2,6 @@ import joblib
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 
-# Ruta fija para cargar el modelo preentrenado
 MODEL_PATH = 'best_isolation_forest_model.pkl'
 
 def load_model():
